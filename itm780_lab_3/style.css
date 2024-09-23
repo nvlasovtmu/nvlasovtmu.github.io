@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+h1, h2, h3, h4, h5, p, a, th, td{
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 2%;
+    background-color: #f8f8e1;
+    color: #000066;
+}
+
+h1{
+    color: white;
+    background-color: #3535a3;
+    padding: 1% 2%;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    padding: 1%;
+    background-color: #dddf84;
+}
+
+div {
+    border-style: solid;
+    border-width: 3px;
+    border-color:#02006d;
+    color: white;
+    background-color: #3535a3;
+    width: 50%;
+    margin: 2%;
+    padding: 1% 2%;
+}
+
+#Left {
+    display: flex;
+}
+
+#Right {
+    display: flex;
+    width: 70%;
+}
+
+table{
+    width: 100%;
+}
+
+td, th {
+	text-align: center;
+	/* Pad the rows and columns separately. Padding the entire table will make the table border larger as well */
+	padding: 1%;
+	border: 3px solid #02006d;
+  	color: black;
+    background-color: #dddf84;
+}
+
+.table_extra{
+    text-align: left;
+    background-color: #dddf84;
+    padding: 1%;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: green;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+a:active{
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    color: white;
+    background-color: #3535a3;
+    padding: 1% 2%;
+    margin-top: 3%;
+}
+
+#uni_link{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#02006d;
+    padding: 1% 2%;
+    width: fit-content;
+}
