@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <title> Nicholas Vlasov </title>
+    </head>
+
+    <body>
+<!-- Nav menu  -->
+         <nav class="nav">
+            <a href="./index.html" class="active" id="Home"> Home </a>
+            <a href="references.html" id="References" onmouseover="mouseOver()" onmouseout="mouseOut()"> References </a>
+            <a href="social_media.html" id="Social_Media" onmouseover="mouseOver()" onmouseout="mouseOut()"> Social Media </a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="dropdownOpen()" id="About_Me" onmouseover="mouseOver()" onmouseout="mouseOut()"> About Me </button>
+                    <div class="dropdown-content" id="myDropdown" >
+                        <a href="#"> Hobbies </a>
+                        <a href="#"> Goals </a>
+                    </div>
+            </div>
+         </nav>
+         <br>
+        <!-- Header Section  -->
+        <h1> Nicholas Vlasov </h1>
+        
+        <h2> Educational Profile </h2>
+
+<!-- clickable image -->
+         <button id="profile_pic" class="profile_pic" onclick="enlargePic()"> </button>
+
+
+        <div id="name_display">
+            <button id="name_display_button" onclick="displayName()"> Click Me to Enter Your Name </button>
+            
+        </div>
+
+<!-- Education Experience Section  -->
+
+        <div id="Left">
+            <article>
+                <h3> Richmond Green Secondary School</h3>
+                <h4 class="years"> 2016 - 2020 </h4>
+                <ul>
+                    <li> High School Diploma </li>
+                    <li> Tech Crew - Stage & Sound Team </li>
+                </ul>
+            </article>
+        </div>
+       
+        <div id="Right">
+            <article>
+                <h3> Toronto Metropolitan University - Ted Rogers School of Management</h3>
+                <h4> 2020 - 2025 </h4>
+                <ul>
+                    <li> Bachelor of Commerce: Business Technology Management </li>
+                    <li> Dean's List 2020-2023 </li>
+                    <li> Extracurriculars: Ryerson Propulsion Group - Hardware Engineer/Technician - 2021</li>
+                </ul>
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="table_extra">
+                                <h5> Description of Program: </h5>
+                                <p> The program combines business management fundamentals with information systems and technology management. It also offers the opportunity to gain valuable professional experience through its co-op option. </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="table_extra">
+                                <h5> Favorite Course: </h5>
+                                <p> ITM415: Business Process Management. This course proved especially useful as I relied on many of the core concepts it taught during my various co-op terms, particularly in my most recent placement. </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a id="uni_link" href="https://www.torontomu.ca/?gad_source=1&gclid=CjwKCAjw_4S3BhAAEiwA_64YhnXGWQV-CAdVcLYnjztHXl9-i8oV3xSemFvPLrQfinYi4zPrdutdaBoCQU4QAvD_BwE"> University Homepage</a>
+
+            </article>      
+        </div>
+        
+        <br>
+
+<!-- Course List  -->
+
+        <h3> My Courses This Semester: </h3>
+
+        <table>
+            <tbody>
+                <tr>
+                    <th> Course Code</th>
+                    <th> Course Name </th>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/geography/GEO/131/">GEO 131</a> </td>
+                    <td>Energy, Earth and Ecosystems </td>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/philosophy/PHL/504/">PHL 504 </a> </td>
+                    <td>Philosphy of Art </td>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/780/"> ITM 780 </a> </td>
+                    <td>Web Design and Management </td>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/750/"> ITM 750 </a> </td>
+                    <td>IS Project Management </td>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/707/"> ITM 707 </a> </td>
+                    <td>Strategy, Management and Acquisition </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+
+
+<!-- Footer  -->
+        <footer>
+            <p> Copyright © 2024 Nicholas Vlasov. All Rights Reserved. </p>
+        </footer>
+    
+    <script src="main.js"></script>
+    </body>
+
+</html>
