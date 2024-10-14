@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <title> Nicholas Vlasov </title>
+    </head>
+
+    <body>
+<!-- Nav menu  -->
+         <nav class="nav">
+            <a href="./index.html" class="active" id="Home"> Home </a>
+            <a href="references.html" id="References" onmouseover="mouseOver()" onmouseout="mouseOut()"> References </a>
+            <a href="social_media.html" id="Social_Media" onmouseover="mouseOver()" onmouseout="mouseOut()"> Social Media </a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="dropdownOpen()" id="About_Me" onmouseover="mouseOver()" onmouseout="mouseOut()"> About Me </button>
+                    <div class="dropdown-content" id="myDropdown" >
+                        <a href="#"> Hobbies </a>
+                        <a href="#"> Goals </a>
+                    </div>
+            </div>
+         </nav>
+         <br>
+
+
+<!-- Header Section  -->
+        <h1> Nicholas Vlasov </h1>
+        <h2> Educational Profile </h2>
+
+
+<!-- clickable image -->
+         <button id="profile_pic" class="profile_pic" onclick="enlargePic()"> </button>
+
+
+        <div id="name_display">
+            <button id="name_display_button" onclick="displayName()"> Click Me to Enter Your Name </button>
+            
+        </div>
+
+<!-- Education Experience Section  -->
+
+        <div id="Left">
+            <article>
+                <h3> Richmond Green Secondary School</h3>
+                <h4 class="years"> 2016 - 2020 </h4>
+                <ul>
+                    <li> High School Diploma </li>
+                    <li> Tech Crew - Stage & Sound Team </li>
+                </ul>
+            </article>
+        </div>
+       
+        <div id="Right">
+            <article>
+                <h3> Toronto Metropolitan University - Ted Rogers School of Management</h3>
+                <h4> 2020 - 2025 </h4>
+                <ul>
+                    <li> Bachelor of Commerce: Business Technology Management </li>
+                    <li> Dean's List 2020-2023 </li>
+                    <li> Extracurriculars: Ryerson Propulsion Group - Hardware Engineer/Technician - 2021</li>
+                </ul>
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="table_extra">
+                                <h5> Description of Program: </h5>
+                                <p> The program combines business management fundamentals with information systems and technology management. It also offers the opportunity to gain valuable professional experience through its co-op option. </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="table_extra">
+                                <h5> Favorite Course: </h5>
+                                <p> ITM415: Business Process Management. This course proved especially useful as I relied on many of the core concepts it taught during my various co-op terms, particularly in my most recent placement. </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a id="uni_link" href="https://www.torontomu.ca/?gad_source=1&gclid=CjwKCAjw_4S3BhAAEiwA_64YhnXGWQV-CAdVcLYnjztHXl9-i8oV3xSemFvPLrQfinYi4zPrdutdaBoCQU4QAvD_BwE"> University Homepage</a>
+
+            </article>      
+        </div>
+        
+        <br>
+
+<!-- Course List  -->
+
+        <h3> My Courses This Semester: </h3>
+
+        <table>
+            <tbody>
+                <tr>
+                    <th> Course Code</th>
+                    <th> Course Name </th>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/geography/GEO/131/">GEO 131</a> </td>
+                    <td>Energy, Earth and Ecosystems </td>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/philosophy/PHL/504/">PHL 504 </a> </td>
+                    <td>Philosphy of Art </td>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/780/"> ITM 780 </a> </td>
+                    <td>Web Design and Management </td>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/750/"> ITM 750 </a> </td>
+                    <td>IS Project Management </td>
+                </tr>
+                <tr> 
+                    <td> <a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/707/"> ITM 707 </a> </td>
+                    <td>Strategy, Management and Acquisition </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+
+
+
+
+
+
+<h2> Extra / Lab Work </h2>
+
+<!-- Lab 6 - FORM SECTION -->
+<div>
+    <form id="surveyForm">
+        <h3> Porfolio Survey </h3>
+        <p> 1. What is your Gender? </p>
+        <input type="radio" id="Male" value="Male" name="gender"> Male <br>
+        <input type="radio" id="Female" value="Female" name="gender"> Female <br>
+        <input type="radio" id="Prefer Not to Say" value="Prefer Not to Say" name="gender" checked> Prefer Not to Say <br>
+        <input type="radio" id="Other" value="Other" name="gender"> Other <br>
+
+        <p> 2. What is your Age? </p>
+        <input type="radio" id="18-24" value="18-24" name="age"> 18-24 <br>
+        <input type="radio" id="25-34" value="25-34" name="age"> 25-34 <br>
+        <input type="radio" id="35-44" value="35-44" name="age" checked> 35-44 <br>
+        <input type="radio" id="45-54" value="45-54" name="age"> 45-54 <br>
+        <input type="radio" id="55-64" value="55-64" name="age"> 55-64 <br>
+        <input type="radio" id="65+" value="65+" name="age"> 65+ <br>
+
+
+        <p> 3. Has a personal portfolio ever influenced your hiring decisions? </p>
+        <input type="radio" id="HiringYes" value="Yes" name="Hiring"> Yes <br>
+        <input type="radio" id="HiringNo" value="No" name="Hiring" checked> No <br>
+
+        <p> 4. What makes someone's personal portfolio website stand out from the others you have seen? </p>
+        <textarea id="standouts" name="portfolio stand outs" rows="2" cols="50"> abc </textarea> 
+
+        <p> 5. How do you typically interact with a candidates personal portfolio website? (Select all that apply) </p>
+        <input type="checkbox" id = "Skimming" value="Skimming Through Sections" name="portfolio interaction"> Skimming Through Sections <br>
+        <input type="checkbox" id = "Examining" value="Examining the Project Portfolio" name="portfolio interaction"> Examining the Project Portfolio <br>
+        <input type="checkbox" id = "Downloading" value="Downloading Resumes" name="portfolio interaction"> Downloading Resumes <br>
+        <input type="checkbox" id = "Watching" value="Watching Demos / Videos" name="portfolio interaction"> Watching Demos / Videos <br>
+        <input type="checkbox" id = "Exploring" value="Exploring Social Media Profiles" name="portfolio interaction"> Exploring Social Media Profiles <br>
+        <input type="checkbox" id = "Reading" value="Reading About Me Sections" name="portfolio interaction"> Reading "About Me" Sections <br>
+        <input type="checkbox" id = "Other Activities" value="Other" name="portfolio interaction"> Other <br>
+        
+        <p> 6. What aspects should a personal portfolio website focus on? </p>
+        <input type="text" value="abc" id="focus areas" name="focus areas"> <br>
+
+        <p> 7. How does color choice factor into your evaluation of a portfolio website? </p>
+        <textarea id="color choice" name="color choice" rows="2" cols="50"> abc </textarea> 
+
+        <p> 8. Rate this survey on a scale of 1-10. </p>
+        <input type="text" value="5" id="rating" name="rating"> <br>
+
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+
+
+
+    </form>
+ </div>
+
+
+
+<!-- Footer  -->
+        <footer>
+            <p> Copyright © 2024 Nicholas Vlasov. All Rights Reserved. </p>
+        </footer>
+    
+    <script src="main.js"></script>
+    <script src="form_handling.js"></script>
+    </body>
+
+</html>
