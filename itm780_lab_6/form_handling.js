@@ -1,7 +1,7 @@
 //This JSS defines local storage behaviour for the index html page
 
 function storeFormLocally(event){ //Function called when forms are submitted
-    event.preventDefault(); //prevents form refresh for testing purposes
+    //event.preventDefault(); //prevents form refresh for testing purposes
     
     //stores element submissions
     var gender = document.querySelector('input[name="gender"]:checked').value;
