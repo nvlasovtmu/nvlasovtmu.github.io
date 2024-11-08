@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <title> Lab 8 - Nicholas Vlasov </title>
+    </head>
+
+    <body>
+        <div>
+            <h1> Lab 8 - Accessibility </h1>
+            <p> Prepared by Nicholas Vlasov </p>
+        </div>
+
+       <!-- Accessibility Controls -->
+
+       <div class="accessibility">
+            <h3> Accessibility Controls</h3>
+            <button id="buttonSmall" onclick="javascript:body.style.fontSize='0.5em'""> Small Text </button>
+            <button id="buttonMed" onclick="javascript:body.style.fontSize='1em'""> Medium Text </button>
+            <button id="buttonLarge" onclick="javascript:body.style.fontSize='1.5em'""> Large Text </button>
+
+            <div class="line"> </div>
+            <button id="colorblindToggle"> Toggle Colorblind Features </button>
+       </div>
+   
+       <!-- AUDIO FILE -->
+        <div>
+            <h2> Music Clip - Cosmic Cycler </h2>
+            <p> Not property of the site author. All rights belong to Cosmic Cycler/Dazzleships Record/Band Camp </p>
+            <p> COSMIC CYCLER. (2016, January 6). Private Beach. [Song] On <i> Special Night </i> [Album]. Dazzleships Records. </p>
+            <div class="video_player">
+                <audio id="audio1" controls src="/Labs/itm780_lab_8/public/COSMIC CYCLER - Special Night - 02 Private Beach.mp3">
+                    Your browser does not support the HTML5 audio element.
+                    </audio>
+            </div>
+        </div>
+
+        <!-- Images -->
+
+        <div>
+            <h2> Images </h2>
+            <a href="#"> <img id="image1" src="/Labs/itm780_lab_8/public/FullSizeRender.jpg" alt="The full arch of a raindbow crests a highway running through rocky mountains."> </a>
+            <p> Figure 1: Taken October 27, 2024, between Calgary and Banff, Alberta. </p>
+
+            <a href="#"> <img id="image2" src="/Labs/itm780_lab_8/public/IMG_0787.JPG" alt="The sky is orange as the sun sets over several houses on a rainy day."> </a>
+            <p> Figure 2: Taken November 8, 2024, near Richmond Hill, Ontario. </p>
+
+            <a href="#"> <img id="image3" src="/Labs/itm780_lab_8/public/IMG_0586.JPG" alt="Low clouds obscure the peak of a rocky mountain range. Trees line the valley below."> </a>
+            <p> Figure 3: Taken October 27, 2024, near Banff, Alberta. </p>
+
+
+        </div>
+
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
