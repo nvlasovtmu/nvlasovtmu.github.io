@@ -57,6 +57,7 @@ button:hover{
 }
 
 img{
-    height: 100%;
-    width: 100%;
+    align-items: start;
+    height: 50%;
+    width: 50%;
 }
