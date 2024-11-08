@@ -35,14 +35,14 @@ function displayAltText(altText){
     alert("Image: " + altText);
 }
 
-document.getElementById("image1").addEventListener("click", function() {
+document.getElementById("image1Button").addEventListener("click", function() {
     displayAltText(document.getElementById("image1").alt);
 });
 
-document.getElementById("image2").addEventListener("click", function() {
+document.getElementById("image2Button").addEventListener("click", function() {
     displayAltText(document.getElementById("image2").alt);
 });
 
-document.getElementById("image3").addEventListener("click", function() {
+document.getElementById("image3Button").addEventListener("click", function() {
     displayAltText(document.getElementById("image3").alt);
 });
