@@ -1,0 +1,36 @@
+div{
+    background-color: wheat;
+    width: 95%;
+    padding: 1% 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1, h2, h3{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+i {
+    font-size: 3em;
+    color: tomato;
+    margin: 0.25em;
+    padding: 0.25em 0.25em;
+}
+
+footer p {
+    margin: 0;
+    padding: 0.25em 0.25em;
+    font-weight: bold;
+}
