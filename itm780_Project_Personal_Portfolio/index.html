@@ -5,67 +5,67 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage | Personal Portfolio of Nicholas Vlasov. Come take a look!">
+
     <title> Homepage | Nicholas Vlasov </title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation-icons.css">
+
   </head>
 <body>
 
-
   <!----------- NAV BAR ---------------->
-  <div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
-
-    
-    <ul class="vertical menu">
-      <li><a href="index.html"> Homepage </a></li>
-      <li><a href="bio_resume.html"> Resume </a></li>
-      <li><a href="portfolio.html"> Portfolio </a></li>
-      <li><a href="contact_me.html"> Contact Me </a></li>
-    </ul>
-    
-  </div>
+    <div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
+      <ul class="vertical menu">
+        <li><a href="index.html"> Homepage </a></li>
+        <li><a href="bio_resume.html"> Resume </a></li>
+        <li><a href="portfolio.html"> Portfolio </a></li>
+        <li><a href="contact_me.html"> Contact Me </a></li>
+      </ul>
+    </div>
   
-  <div class="off-canvas-content" data-off-canvas-content>
-    <div class="nav-bar">
-        <div class="nav-bar-left">
-          <a class="nav-bar-logo" href="index.html"> Nicholas Vlasov </a>
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div class="nav-bar">
+          <div class="nav-bar-left">
+            <a class="nav-bar-logo" href="index.html"> Nicholas Vlasov </a>
+          </div>
+          <div class="nav-bar-right">
+            <ul class="menu">
+              <li>
+                <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">
+                  <span class="offcanvas-trigger-text hide-for-small-only">Menu</span>
+                  <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                  </div>
+                </button>
+              </li>
+            </ul>
         </div>
-        <div class="nav-bar-right">
-          <ul class="menu">
-            <li>
-              <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">
-                <span class="offcanvas-trigger-text hide-for-small-only">Menu</span>
-                <div class="hamburger">
-                  <span class="line"></span>
-                  <span class="line"></span>
-                  <span class="line"></span>
-                </div>
-              </button>
-            </li>
-          </ul>
       </div>
     </div>
-   </div>
   
   <!--------------------------->
 
   <!----------- Portfolio header ---------------->
 
-  <header class="portfolio-hero-header">
-    <img class="portfolio-hero-header-logo" src="public_html/IMG_0246.jpg"/>
-    <h1 class="portfolio-hero-header-h1"> Nicholas Vlasov </h1>
-    <ul class="portfolio-hero-header-description">
-      <li> Business Analysis </li>
-      <li> Project Management </li>
-      <li> Agile Development</li>
+    <header class="portfolio-hero-header">
+      <img class="portfolio-hero-header-logo" src="public_html/IMG_0246.jpg" alt="Nicholas Vlasov poses for a professional office headshot in a navy blue suit"/>
+      <h1 class="portfolio-hero-header-h1"> Nicholas Vlasov </h1>
+      <ul class="portfolio-hero-header-description">
+        <li> Business Analysis </li>
+        <li> Project Management </li>
+        <li> Agile Development</li>
+      </ul>
+    </header>
+    
+    <ul class="portfolio-hero-header-menu">
+      <li><a class="button success" href="bio_resume.html"> Resume </a></li>
+      <li><a class="button success" href="portfolio.html"> Portfolio </a></li>
+      <li><a class="button success" href="contact_me.html"> Contact Me </a></li>
     </ul>
-  </header>
-  
-  <ul class="portfolio-hero-header-menu">
-    <li><a class="button success" href="bio_resume.html"> Resume </a></li>
-    <li><a class="button success" href="portfolio.html"> Portfolio </a></li>
-    <li><a class="button success" href="contact_me.html"> Contact Me </a></li>
-  </ul>
   
     
   <!--------------------------->
@@ -73,43 +73,45 @@
 
   <!----------- About Me / Snippet  ---------------->
 
-  <div class="about-the-author">
-    <div class="row">
-      <div class="small-12 medium-4 columns">
-        
-      </div>
-      <div class="small-12 medium-8 columns">
-        <h4 class="separator-left"> About Me </h4>
-        <p> I'm Nicholas, an IT professional currently pursuing a Bachelor of Commerce in Business Technology Management at Toronto Metropolitan University. 
-        <p> I've had the exciting opportunity to dive into software development through the lenses of several different roles including Business Analyst, Data Analyst, 
-            and Scrum Master across both public and private sectors. As I supplement my academic journey with real-world experience, 
-            I am eager to further develop my skills and make a positive impact in the technology sector. </p>
+    <div class="about-the-author">
+      <div class="row">
+        <div class="small-12 medium-4 columns">
+          
+        </div>
+        <div class="small-12 medium-8 columns">
+          <h4 class="separator-left"> About Me </h4>
+          <p> I'm Nicholas, an IT professional currently pursuing a Bachelor of Commerce in Business Technology Management at Toronto Metropolitan University. 
+          <p> I've had the exciting opportunity to dive into software development through the lenses of several different roles including Business Analyst, Data Analyst, 
+              and Scrum Master across both public and private sectors. As I supplement my academic journey with real-world experience, 
+              I am eager to further develop my skills and make a positive impact in the technology sector. </p>
+        </div>
       </div>
     </div>
-  </div>
   
 <!--------------------------->
 
 
-<!----------- Footer ---------------->
-  <footer class="social-footer">
-    <div class="social-footer-left">
-      <p> All rights reserved. ©2024 Nicholas Vlasov </p>
-    </div>
-  </footer>
+  <!----------- Footer ---------------->
+    
+    <footer class="social-footer">
+      <div class="social-footer-left">
+        <button class="button success" onclick="toggleTextSize()"> <i class="fi-wheelchair"> </i> Toggle Accessibility Features </button>
+        <p>  © 2024 Nicholas Vlasov. All rights reserved. </p>
+      </div>
+    </footer>
 
-<!--------------------------->
+  <!--------------------------->
 
 
 
-<!----------- JS Links ---------------->
+  <!----------- JS Links ---------------->
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-  
-<!--------------------------->
+    
+  <!--------------------------->
 
   </body>
 </html>

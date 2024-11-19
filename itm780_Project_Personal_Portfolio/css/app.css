@@ -297,6 +297,11 @@ img.portfolio-hero-header-logo {
   color: #ffffff;
 }
 
+footer i, button{
+  font-size: 16pt;
+  font-weight: bold;
+}
+
 /******************************************/
 
 
